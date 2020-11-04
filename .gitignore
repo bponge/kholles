@@ -1,6 +1,5 @@
 *.out
 *.aux
-*.pdf
 *.ps
 *.log
 *.dvi
