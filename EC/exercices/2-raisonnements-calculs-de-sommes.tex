@@ -1,0 +1,117 @@
+ \chapter{Calculs et raisonnements - Sommes}
+ 
+\section{Programme}
+	\begin{itemize}
+ 	\item Calcul: symbole $\sum$, sommes usuelles, changement d'indice, simplification téléscopique, inégalité triangulaire, résolution d’équations et d’inéquations,
+ 	\item Raisonnement: assertions, conditions, implication et équivalence.  analyse-synthèse. Ordre des  quantificateurs et preuve d’une énoncé quantifié.
+ \end{itemize}
+
+
+\section{Remarques}
+
+
+\NB Attention au changement de variable du type $j=2k-1$. Si $k$ varie entre $1$ et $n$, $j$ ne prend pas toutes les valeurs entre $1$ et $2n-1$. 
+
+\NB Pour les somme avec $1/k$, penser au téléscopage. 
+ 
+
+\section{Questions de cours}	
+
+
+\begin{exercise}[subtitle=Récurrences, extype=cours]
+	\begin{tasks}
+		\task Énoncer le principe de la méthode de démonstration par récurrence simple.
+		\task Préciser la différence avec les récurrences double et forte.
+		\task Démontrer par récurrence que $\sum\limits_{k=1}^n k^2 = \frac{n(n+1)(2n+1)}{6}$.
+	\end{tasks}
+\end{exercise}
+
+\begin{exercise}[subtitle=Symbole $\sum$, extype=cours]
+\begin{tasks}
+	\task Donner le nom et expliquer le sens du symbole $\sum$ dans l'expression  $\sum\limits_{k=p}^n u_k$. 
+	\task Comment appelle-t-on $k$ et $u_k$ ? 
+	\task L'opérateur $\sum$ est-il linéaire ? Pourquoi ?  
+    \task Démontrer par changement d'indice que $ \sum\limits_{k=0}^n q^k = \frac{1 - q^{n+1}}{1-q}$. 
+\end{tasks}
+\end{exercise}
+
+
+\begin{exercise}[subtitle=Relation  de  Chasles et identité triangulaire, extype=cours]
+	\begin{tasks} 
+		\task Exprimer  la relation de Chasles à l'aide de l'opérateur $\sum$.
+		\task Exprimer  l'identité triangulaire à l'aide de l'opérateur $\sum$.
+		\task Démontrer par changement d'indice que $ \sum\limits_{k=p}^n q^k = q^p\frac{1 - q^{n-p+1}}{1-q}$.
+	\end{tasks}
+\end{exercise}
+
+
+\section{Exercices}
+
+\begin{exercise}[subtitle=Sommes des impairs, difficulty=*]
+	Proposer deux manières différentes de démontrer que la somme des $n$ premiers nombres impairs est égale à $\frac{n}{3}(4n^2-1)$.
+\end{exercise}
+
+\begin{exercise}[subtitle=Sommes des produits des consécutifs, difficulty=*]
+	Proposer deux manières différentes de démontrer que la somme des $n$ premiers produits consécutifs, c'est à dire $S_{12} = 1\times2 + 2\times3 +3\times4 + \dots + n\times(n-1)$ est égale à $\frac{n}{3}(n-1)(n+1)$.
+\end{exercise}
+
+\begin{exercise}[subtitle=Inégalité et récurrence, difficulty=*]
+		\begin{tasks}(2)
+		\task Démontrer que $\forall n \in \NNs, 5^n + 5 < 5^{n+1}$.
+		\task Démontrer que  $\forall n \ge 2, \sum\limits_{k=1}^n \frac{1}{k^2} > \frac{3n}{2n+1}$
+		\end{tasks}
+\end{exercise}
+
+\begin{exercise}[subtitle=Calcul de sommes, difficulty=*]
+Calculer les sommes suivantes :
+	\begin{tasks}(2)
+		\task $S_n = \sum\limits_{k=2}^n \frac{4k-1}{k(k^2-1)}$
+		\task $S_n = \sum\limits_{k=1}^n \frac{1}{k} + \sum\limits_{k=1}^n\frac{2}{k+1} - \sum\limits_{k=1}^n\frac{3}{k+2}$	
+		\task $S_n = \sum\limits_{k=0}^n (2^k + 4k +n -3)$
+	    \task $S_n = \sum\limits_{k=0}^n 2^k3^{n-k}$
+	    \task $S_n = \sum\limits_{k=1}^n (2^k-1)^3$
+	     \task $S_n = \sum\limits_{k=1}^n \ln (1 + \frac{1}{k})$
+	\end{tasks}
+\end{exercise}
+
+\begin{exercise}[subtitle=Changement d'indice, difficulty=*]
+	Calculer les sommes suivantes :
+	\begin{tasks}
+		\task $S_n = \sum\limits_{k=1}^n k2^k$ (poser $j=k-1$)
+	    \task $S_n = \sum\limits_{k=0}^n \cos^2 (\frac{k\pi}{2n})$ (poser $j=n-k$ puis faire apparaître $S_n$)
+	\end{tasks}
+\end{exercise}
+
+\begin{exercise}[subtitle=Démonstrations par récurrence, difficulty=*]
+	\begin{tasks}
+		\task Montrer que pour tout $n\in \NN$, le réel $10^{6n+2}+10^{3n+1}+1$ est divisible par 111.
+		\task Montrer que tout entier $n \ge 2$ se décompose en produit de nombres premiers.
+		\task Montrer que pour tout entier $n \in \NNs$, il existe $p, q \in \NN$ tels que $n=2^p(2q+1)$.
+		
+	\end{tasks}
+\end{exercise}
+
+\begin{exercise}[subtitle=Annuité constante, difficulty=*]
+Soit $c$, $a$, $i$ des réels positifs. On note $R_n = c(a-i)(1+i)^n$ pour tout $n\in \NN$. 
+	\begin{tasks}
+		\task Calculer $S_n = \sum\limits_{k=0}^n R_n$
+		\task On suppose que $S_n = e$. Calculer $a$ en fonction de $i$.
+	\end{tasks}
+\end{exercise}
+
+
+
+\begin{exercise}[subtitle=Analyse synthèse - fonctions, difficulty=*]
+	\begin{tasks}
+		\task Déterminer toutes les fonctions $f : \NN \rightarrow \RR$ telles que $\forall m,n \in \NN, f(m+n) = f(n)+ f(m)$
+		\task Déterminer toutes les fonctions $f : \RR \rightarrow \RR$ telles que $\forall x,y \in \RR, f(x)f(y) = f(xy)+ x +y$
+	\end{tasks}
+\end{exercise}
+
+
+
+
+
+
+
+

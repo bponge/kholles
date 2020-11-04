@@ -1,0 +1,287 @@
+ \chapter{Calculs et raisonnements - bases}
+ 
+\section{Programme}
+	\begin{itemize}
+ 	\item Révisions de calcul: fractions, puissances, racine carrée, fonction trinôme. Valeur absolue. Manipulations d’inégalités.
+ 	\item Raisonnement: assertions, conditions, implication et équivalence. Résolution d’équations et d’inéquations, analyse-synthèse. Quantificateurs et preuve d’une énoncé quantifié.
+ \end{itemize}
+
+
+\section{Remarques}
+
+\NB On peut donner une définition de l'implication à l'aide de la notion de condition ou à l'aide de la négation combinée à la disjonction : << non P ou Q>> ou encore $\neg P \wedge Q$.
+
+\NB Le principe de déduction s'énonce ainsi : si $P$ est vraie et que $P \Rightarrow  Q$ alors $Q$ est vraie. 
+
+
+\NB Insister sur le fait qu'on peut démontrer l'équivalence par la démonstration des deux implications réciproques, parfois moins risqué que l'enchaînement d'équivalences non maîtrisées. Parfois le raisonnement direct par équivalence n'est tout simplement pas possible$\dots$
+
+\NB Un exemple simple d'équivalence est l'usage d'une identité remarquable pour résoudre une équation par factorisation. $x^2+2x+1 = 0 \Leftrightarrow (x+1)^2=0 \Leftrightarrow x=-1$
+
+\NB Le raisonnement par analyse-synthèse est une méthode constructive qui permet parfois de prouver l'unicité en même temps que l'existence d'une solution, même si ce n'est pas généralement le cas. 
+
+\NB Faire remarquer que la phase d'analyse permet de trouver les conditions nécessaires pour caractériser les solutions d'une  problème, alors que la phase de synthèse permet de vérifier que ces conditions obtenues sont également suffisantes.
+
+\NB On peut faire remarquer qu'une prédicat est une proposition dont la valeur de vérité dépend des variables quantifiées.
+
+
+\section{Questions de cours}	
+
+
+\begin{exercise}[subtitle=Puissances, extype=cours]
+Soit $a \in \RRs$, $b \in \RRs$ , $n\in \NNs$, $p \in \ZZ$ et $q \in \ZZ$.  Quelles règles peut-on utiliser pour calculer les expressions suivantes :
+\begin{tasks}(3)
+	\task	$a^n \times a^m$
+	\task $\frac{a^n}{a^m}$
+	\task $(a^n)^m$
+	\task $a^n b^n$
+	\task $\frac{a^n}{b^n}$ 
+\end{tasks}
+\end{exercise}
+
+\begin{exercise}[subtitle=Racines n-ièmes et rationnels, extype=cours]
+\begin{tasks}
+	\task Donner la définition d'une racine n-ième.
+	\task Soit $r$ un nombre rationnel. Peut-on définir $x^r$ si pour tout $x$ ? 
+	\task Pourquoi ? Donner un exemple.
+\end{tasks}
+\end{exercise}
+
+
+\begin{exercise}[subtitle=Identités remarquables (cours)]
+\begin{tasks}
+\task Énoncer trois identités remarquables.
+\task À quoi cela peut-il servir concrètement ? Donner un exemple. 
+\end{tasks}
+\end{exercise}
+
+\begin{exercise}[subtitle=Fonction trinôme (cours)]
+	Soit $a$,$b$ et $c$ trois réels et  l'équation $(E) : ax^2+bx+c=0$ 
+	\begin{tasks}
+		\task Cette équation a-t-elle toujours des solutions dans $\RR$ ?
+		\task Donner la forme des solutions de cette équation ainsi que les factorisations résultant de la résolution. Sont-elles valables pour une inconnue $z \in \CC$ ?
+	\end{tasks}
+\end{exercise}
+
+\begin{exercise}[subtitle=Signe de la fonction trinôme (cours)]
+	Soit $a$,$b$ et $c$ trois réels et $a>0$. On s'intéresse au signe de $ax^2+bx + c=a(x-x_1)(x-x_2)$, avec $x_1<x_2$.  
+	\begin{tasks}
+		\task Discuter le signe de $ax^2+bx + c$ en fonction de la valeur de  $x$ lorsque $x$ est réel.
+		\task Peut-on généraliser une règle pour le signe ?
+	\end{tasks}
+\end{exercise}
+
+\begin{exercise}[subtitle=Définition de valeur absolue (cours)]
+	Soit $a$ un nombre réel.   
+	\begin{tasks}
+		\task Donner la définition de la valeur absolue de  $a$.
+		\task Donner une représentation graphique de $\mid b-a\mid$, si $a$ et $b$ sont des réels.
+		\task Discuter les propriétés de la valeur absolue en lien avec les opérateurs addition, multiplication et puissance.
+		\task Qu'est que l'inégalité triangulaire ? 
+	\end{tasks}
+\end{exercise}
+
+
+\begin{exercise}[subtitle=Inégalité et valeur absolue (cours)]
+	Soit $a$ un nombre réel positif et $x$ un nombre réel. Donner une formulation équivalente aux inégalités suivantes :  
+	\begin{tasks}(2)
+		\task $\mid x \mid \leqslant a$
+		\task $\mid x \mid < a$
+		\task $\mid x \mid \geqslant a$
+		\task Qu'est que l'inégalité triangulaire ?
+	\end{tasks}
+	
+\end{exercise}
+
+
+\begin{exercise}[subtitle=Assertion (proposition) et condition (cours)]
+	\begin{tasks}
+		\task Qu'est-ce qu'une assertion ou proposition ? 
+		\task Donner un exemple.
+		\task L'expression mathématique $x^2 < x^3$ est-elle une assertion ? 
+		\task Quelle est la différence entre une condition et une assertion ?
+		\task Donner un exemple de condition.
+	\end{tasks}
+\end{exercise}
+
+
+
+\begin{exercise}[subtitle=Implication (cours)]
+	\begin{tasks}
+		\task Donner la définition d'une implication. 
+		\task Donner un exemple.
+		\task Comment peut-on démontrer une implication ?
+		\task Démontrer l'implication suivante : <<si $x+1 \in \QQ$, alors $x \in \QQ$>>.
+	\end{tasks}
+\end{exercise}
+
+
+
+\begin{exercise}[subtitle=Equivalence (cours)]
+	\begin{tasks}
+		\task Donner la définition d'une équivalence, sa formulation en français et son écriture mathématique. 
+		\task Donner un exemple.
+		\task Comment peut-on démontrer une équivalence ?
+		\task Démontrer l'équivalence suivante pour deux réels $x$ et $y$ : $x^2 = y^2 \Leftrightarrow x=y$ ou $x=-y$.
+	\end{tasks}
+\end{exercise}
+
+
+
+\begin{exercise}[subtitle=Analyse-synthèse (cours)]
+	\begin{tasks}
+		\task Expliquer le principe du raisonnement par analyse- synthèse.  
+		\task Détailler la phase d'analyse : à quoi sert-elle ?
+		\task Détailler la phase de synthèse : à quoi sert-elle ?
+		\task Trouver l'ensemble de solutions $\Sc$ de l'équation suivante :$(E) : \sqrt{x+1} -x=0$
+	\end{tasks}
+\end{exercise}
+
+
+
+\begin{exercise}[subtitle=Quantification  (cours)]
+	\begin{tasks}
+		\task Donner le nom et  la signification des différents quantificateurs.   
+		\task Où doit-on placer le quantificateur par rapport à la variable qu'il quantifie ?
+		\task Une assertion quantifiée est-elle toujours vraie ?
+		\task Donner un exemple d'assertion quantifiée  pour chaque quantificateur.
+	\end{tasks}
+\end{exercise}
+
+
+
+ \begin{exercise}[subtitle=Ordre des quantificateurs  (cours)]
+ 	\begin{tasks}
+ 		\task Donner le nom et  la signification des différents quantificateurs.   
+ 		\task Énoncer les règles qui permettent d'intervertir (ou pas) les quantificateurs dans un énoncé. 
+ 		\task Donner un exemple et un contre-exemple pour chaque cas. 
+ 	\end{tasks}
+ \end{exercise}
+
+
+ \begin{exercise}[subtitle=Preuve d'unicité et d'existence  (cours)]
+	Soit l'assertion $\Bc : \exists ! x \in E, \Pc(x)$
+	\begin{tasks}
+		\task En règle générale, comment doit-on procéder pour prouver cette assertion ? 
+		\task Dans quels cas cela peut-il être plus simple ? 
+		\task Montrer que : $\forall x \in \RRs_+, \exists ! t \in  \RR, e^t = x$
+	\end{tasks}
+\end{exercise}
+
+
+\section{Exercices}
+
+
+
+\begin{exercise}[subtitle=Simplifier les fractions, difficulty=*]
+	\begin{tasks}(2)
+		\task $\frac{7}{21}\times\frac{12}{42}$
+		\task $1-\frac{a}{1+a}$ pour $a\neq- 1$ 
+		\task $\frac{1}{a-1}-\frac{a}{1-a}$ pour $\mid a\mid \neq 1$
+		\task $\frac{a-1+\frac{2}{a}}{a+1} -\frac{1}{a}$ pour $a\neq -1$ et $a\neq 0$
+	\end{tasks}
+\end{exercise}
+
+
+\begin{exercise}[subtitle=Calculs et simplifications de puissances, difficulty=*]
+	\begin{tasks}(2)
+		\task $1-(-2)^3$
+		\task $5^2-4^3$
+		\task $a^n\times a^{1-n}$ pour $n\in \NN$ et $a \in \RRs$
+		\task $\frac{a^{1+n}}{a^n}$ pour $n\in \NN$ et  $a \in \RR$
+		\task $\frac{1}{a^n}+ (b^2)^n a^{-n}+\frac{2b^n}{a^n}$ pour $n\in \NN$, $a \in \RRs$, $b\in \RR$
+	\end{tasks}
+\end{exercise}
+
+\begin{exercise}[subtitle=Calculs et simplifications de racines, difficulty=*]
+	\begin{tasks}(2)
+		\task $\sqrt[3]{\sqrt{8}}$
+		\task $\sqrt{a\sqrt[3]{a\sqrt{a}}}$ si $a>0$
+		\task $\frac{\sqrt{5625}}{\sqrt{15}}$
+		\task $\frac{\sqrt{507}}{\sqrt{3}}$
+		\task $\frac{\sqrt{48}}{\sqrt{2304}}$
+		\task $\ln(9\sqrt{576})$  
+		\task $\frac{\sqrt{a}+b}{\sqrt{a}-b}-\frac{\sqrt{a}-b}{\sqrt{a}+b}$ si $\sqrt{a}-b$  et $\sqrt{a}+b$ sont non nuls.
+		\task $\sqrt{a +\sqrt{2a - 1}} \times \sqrt{a -\sqrt{2a -1}}$ pour $a$ réel tel que : $a>1$.
+	\end{tasks}
+\end{exercise}
+
+
+
+\begin{exercise}[subtitle=Assertions vraies ou fausses ?, difficulty=*]
+	Les assertions suivantes sont-elles vraies ou fausses ?  Pourquoi ?
+	\begin{tasks}(2)
+		\task $\forall x \in \RR, x < 2 \Rightarrow x^2 < 4$
+		\task $\forall x \in \RR, x^2 = 4 \Rightarrow x =2$
+		\task $\forall n \in \NN, n(n+1)$ est pair.
+		\task $\forall n \in \NNs, 2^{n-1}\geqslant n+1$
+	\end{tasks}
+\end{exercise}
+
+
+\begin{exercise}[subtitle=Simplifier l'écriture des fonctions, difficulty=*]
+Simplifier l'écriture des fonctions suivantes, en supposant qu'elles sont bien définies :
+	\begin{tasks}(2)
+		\task $f(x) = \frac{1}{x-3} -\frac{4}{x^2-2x-3}$
+		\task $f(x) = \frac{9x^2 -9x +2}{(3x^2-16x+5)}$
+		\task $f(x) = \frac{1}{2x-6}-\frac{1}{x-3}$
+	    \task $f(x) = \frac{x-1}{x-1 -\frac{1}{x-1}}$
+	\end{tasks}
+\end{exercise}
+
+
+\begin{exercise}[subtitle=Encadrement de réels, difficulty=*]
+Soit $a$, $b$, $c$ trois nombres réels. Démontrer que :
+	\begin{tasks}(2)
+		\task  $ab \le \frac{a^2+b^2}{2}$
+		\task  $ab+bc+ac \le a^2+b^2+c^2$
+		\task  $3ab+3bc+3ac \le (a+b+c)^2$
+	\end{tasks}
+\end{exercise}
+
+\begin{exercise}[subtitle=Équation racine et puissances, difficulty=*]
+Résoudre les équations suivantes :
+	\begin{tasks}(2)
+		\task $\sqrt{x-2}=x$
+		\task $\sqrt{2x+3}=x$
+		\task $\sqrt{7x-10}=x $
+		\task $x^4-16x^2+64=0$
+		\task $x^3 = -8$
+		\task $4x^2 -20x + 9= 0$
+ 	\end{tasks}
+\end{exercise}
+
+\begin{exercise}[subtitle=Encadrements 1, difficulty=*]
+ Sachant que $x \in [3,6]$ et $y \in [-4,-3]$, encadrer :
+\begin{tasks}(2)
+\task  $x+y$
+\task  $x-y$
+\task  $xy$
+\task  $x/y$
+\end{tasks}
+\end{exercise}
+
+\begin{exercise}[subtitle=Encadrements 2, difficulty=*]
+	Sachant que $x \in [2,5]$ et $y \in [-3,-2]$, encadrer :
+	\begin{tasks}(2)
+		\task  $x+y$
+		\task  $x-y$
+		\task  $xy$
+		\task  $x/y$
+	\end{tasks}
+\end{exercise}
+
+\begin{exercise}[subtitle=Encadrements 3, difficulty=*]
+	Sachant que $x \in [-5,-1]$ et $y \in [-3,-2]$, encadrer :
+	\begin{tasks}(2)
+		\task  $x+y$
+		\task  $x-y$
+		\task  $xy$
+		\task  $x/y$
+	\end{tasks}
+\end{exercise}
+
+
+
+
+

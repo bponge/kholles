@@ -1,0 +1,51 @@
+\usepackage{xcolor}
+\usepackage{xsim,tasks,siunitx}
+\xsimsetup{
+	clear-aux,
+	solution/print = false
+}
+
+\DeclareExerciseTagging{difficulty}
+%\xsimsetup{
+%	difficulty={*, **, ***}
+%}
+\DeclareExerciseTagging{extype}
+%\xsimsetup{
+%	extype={cours, résolution, démonstration, calcul}
+%}
+
+
+\DeclareExerciseEnvironmentTemplate{custom}
+{
+	\subsection*
+	{%
+		\XSIMmixedcase {\GetExerciseName}\nobreakspace
+		\GetExerciseProperty{counter}%
+		\IfExercisePropertySetT{difficulty}
+		{ {\normalfont\bfseries \GetExerciseProperty{difficulty}}}%
+		\IfExercisePropertySetT{subtitle}
+		{ {\normalfont\GetExerciseProperty{subtitle}}}%
+		\IfExercisePropertySetT{extype}
+		{ {\normalfont\itshape (\GetExerciseProperty{extype})}}%
+	}%
+}
+{}
+
+\xsimsetup{exercise/template = custom}
+
+
+
+
+\usepackage{titlesec}
+\titleformat{\section}
+{ \vspace{1em}
+  \titlerule[1pt] 
+  \vspace{1em}
+  \large
+  \color{black}
+ }
+{\color{black} \large \thesection. }
+{ 0.5em }
+{ \vspace{0.5em} }
+
+

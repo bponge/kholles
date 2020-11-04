@@ -1,0 +1,9 @@
+*.out
+*.aux
+*.pdf
+*.ps
+*.log
+*.dvi
+*.tex~
+*.synctex.gz
+.DS_Store
