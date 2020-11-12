@@ -19,7 +19,8 @@
 #    pdflatex $fileName
 #done
 echo "Compiling with pdflatex !"
-pdflatex EC/khec.tex
+cd EC/
+pdflatex khec.tex
 
 #cp *.pdf $OUT_DIR 2>/dev/null || :
 
