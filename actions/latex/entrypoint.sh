@@ -22,5 +22,5 @@ echo "Compiling with pdflatex !"
 cd EC/
 pdflatex khec.tex
 
-#cp *.pdf $OUT_DIR 2>/dev/null || :
+cp khec.pdf $OUT_DIR 2>/dev/null 
 
