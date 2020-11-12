@@ -19,9 +19,15 @@
 \contentsline {section}{\numberline {4.2}Remarques}{19}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Questions de cours}{19}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Exercices}{20}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Nombres complexes et trigonométrie}{23}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Ensembles et raisonnements}{23}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Programme}{23}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Démonstrations à connaître}{23}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Remarques}{23}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Questions de cours}{23}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Exercices}{25}{section.5.5}%
+\contentsline {section}{\numberline {5.5}Exercices}{23}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Nombres complexes et trigonométrie}{25}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Programme}{25}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Démonstrations à connaître}{25}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Remarques}{25}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Questions de cours}{25}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Exercices}{27}{section.6.5}%
