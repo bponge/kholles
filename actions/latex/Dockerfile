@@ -11,7 +11,7 @@ LABEL "com.github.actions.color"="blue"
 
 # Install all LaTeX dependencies
 RUN apt-get update && \
-    apt-get install texlive-full  && \
+    apt-get install --yes --no-install-recommends texlive-full  && \
     apt-get autoclean && \
     apt-get --purge --yes autoremove && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
