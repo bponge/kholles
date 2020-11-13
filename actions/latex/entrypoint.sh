@@ -21,6 +21,6 @@ mkdir --parent $OUT_DIR
 echo "Compiling with pdflatex !"
 cd EC/
 pdflatex khec.tex
-
-cp khec.pdf $OUT_DIR
+cd ..
+cp EC/khec.pdf $OUT_DIR
 
