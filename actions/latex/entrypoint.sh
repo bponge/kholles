@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#set -e
+set -e
 
 echo "Creating output directory $OUT_DIR..."
 mkdir --parent $OUT_DIR
