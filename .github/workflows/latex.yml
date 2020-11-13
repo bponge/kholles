@@ -27,8 +27,9 @@ jobs:
         env:
           OUT_DIR: PDF
 
-      # Runs a set of commands using the runners shell
-      - name: This is the end 
+      - name: Commit report
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          git config --global user.name 'Olivier Reynet'
+          git config --global user.email 'olivier.reynet@ensta-bretagne.fr'
+          git commit -am "Automated integration LaTeX"
+          git push
