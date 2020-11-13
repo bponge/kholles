@@ -2,8 +2,8 @@
 
 #set -e
 
-#echo "Creating output directory $OUT_DIR..."
-#mkdir --parent $OUT_DIR
+echo "Creating output directory $OUT_DIR..."
+mkdir --parent $OUT_DIR
 
 #for fileName in *.tex *.cls; do
 #    [ -f "$fileName" ] || break
@@ -22,5 +22,5 @@ echo "Compiling with pdflatex !"
 cd EC/
 pdflatex khec.tex
 
-cp khec.pdf $OUT_DIR 2>/dev/null 
+cp khec.pdf $OUT_DIR
 
