@@ -18,5 +18,5 @@ pdflatex $fileName
 cd ..
 
 echo "Copying result to PDF/"
-cp -f EC/$fileName $OUT_DIR
+cp -f EC/$fileName $OUT_DIR/colles_EC.pdf
 
