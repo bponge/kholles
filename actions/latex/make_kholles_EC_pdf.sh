@@ -11,7 +11,7 @@ cd EC/
 fileName="khec.tex"
 d=`date +%d-%m-%Y` 
 echo "Substituting version number ${GITHUB_SHA::7} in file $fileName..."
-sed -i -e "s/-- Document version :/c -- Document version : ${GITHUB_SHA::7} -- le  $d/" $fileName
+sed -i -e "/-- Document version :/c -- Document version : ${GITHUB_SHA::7} -- le  $d/" $fileName
 
 pdflatex $fileName 
 pdflatex $fileName
