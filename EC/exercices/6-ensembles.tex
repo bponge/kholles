@@ -9,8 +9,28 @@
 
 \section{Exercices}
 
+\begin{exercise}[subtitle= Inclusion et intersection]
+	Si $X, Y$ et $Z$ sont des parties quelconques d'un ensemble $E$.
+	\Mq $X \subset Y \Rightarrow X\cap Z \subset Y \cap Z$.
+\end{exercise}
 
-\begin{exercise}[subtitle= Absurde, difficulty=*]
+
+\begin{exercise}[subtitle= Inclusion et intersection]
+On pose $E=\lbrace 0,1,2,3,4,5,6,7,8\rbrace$ et $A=\lbrace 0, 1,2,5\rbrace$ et $B=\lbrace 0,3,8\rbrace$
+\begin{tasks} (2)
+	\task Déterminer $\overline{A}$
+	\task  Déterminer $\overline{B}$
+	\task Déterminer $A\cap B$
+	\task Déterminer $A\cup\overline{B}$
+	\task Déterminer $A\setminus B$
+\end{tasks} 
+\end{exercise}
+
+
+
+
+
+\begin{exercise}[subtitle= Absurde]
 	\begin{tasks} 
 		\task 	Montrer que $\sqrt{2}$  n'est pas un nombre rationnel.
 		\task Montrer qu'il n'existe pas d'entier naturel supérieur à tous les autres. 
@@ -18,7 +38,7 @@
 	\end{tasks}
 \end{exercise}
 
-\begin{exercise}[subtitle= Contraposition, difficulty=*]
+\begin{exercise}[subtitle= Contraposition]
 		\begin{tasks} 
 			\task Montrer que si $n$ est impair alors $n+1$ l'est aussi (directement et par contraposition).
 			\task Montrer que si $3n$ est impair, alors $n$ est impair.  
@@ -30,9 +50,24 @@
 
 
 
-\begin{exercise}[subtitle= Disjonction des cas, difficulty=*]
+\begin{exercise}[subtitle= Disjonction des cas]
 	\begin{tasks} 
-		\task Montrer que $\forall x,y \in \RR,  \abs{xy} =\abs{x}\abs{y}$.
-		\task   
+		\task Montrer que $\forall x,y \in \RR,  \abs{xy} =\abs{x}\abs{y}$.  
 	\end{tasks}
 \end{exercise}
+
+
+\begin{exercise}[subtitle= Récurrence]
+	\begin{tasks} 
+	\task \Mq $\forall n \in \NNs$, $\dfrac{1}{1\times 2}+\dfrac{1}{2\times 3}+\dots+\dfrac{1}{n\times (n+1)}=\dfrac{n}{n+1}$.
+	\task Soit $x$ un réel tel que $x>-1$. \Mq  $\forall n \in \NN$, $(1+x)^n\geqslant 1+nx$.
+	\task On pose $F_0=F_1= 1$ et pour $n\geqslant 0,F_{n+2}=F_n+F_{n+1}$. \Mq  $ \forall n\in \NN, F_n\geqslant n$.
+	\task \Mq $\forall n \in \NN, 2^n \geqslant n+1$.
+	\task \Mq $\forall n\in \NNs, \quad \sum_{k=1}^n k^3=\left(\dfrac{n(n+1)}{2}\right)^2$.
+	\task On considère la suite $(u_n)_{n\in \NN}$ définie par $u_0=0$ et par la relation : $\forall n \in \NNs, u_n=\sqrt{n^2+u_{n-1}}$. \Mq $\forall n \in \NN, u_n \leqslant n+ 1$.
+	\end{tasks}
+\end{exercise}
+
+
+
+

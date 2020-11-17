@@ -79,6 +79,21 @@
 	Soit le produit $P_n = \prod\limits_{k=1}^{n}2^{1-k^3}$. Calculer $P_n$ en explicitant les propriétés de calcul utilisées. 
 \end{exercise}
 
+\begin{exercise}[subtitle= Simplifier les sommes et les produits, difficulty=**]
+\begin{tasks} (2)
+	\task $\sum_{k=1}^n \ln\left(1+\dfrac {1}{k}\right)$
+	\task $\prod_{k=2}^n \left(1-\dfrac{1}{k^2}\right)$
+	\task $\sum_{k=0}^n \dfrac{1}{(k+2)(k+3)}$. 
+\end{tasks} 
+\end{exercise}
+
+\begin{exercise}[subtitle= Simplification et factorielle, difficulty=**]
+	Simplifier les expressions :
+	\begin{tasks} (2)
+		\task $\prod_{j=3}^n (2j)$
+		\task $\prod_{k=0}^n \left(\dfrac{2}{n+k}\right)$
+	\end{tasks} 
+\end{exercise}
 
 \begin{exercise}[subtitle= Binôme et somme, difficulty=*]
 	Soit $p$ un entier naturel différent de 0. Calculer  $S_n = \sum\limits_{k=0}^{n}\binom{n}{k}p^{k}$.  
@@ -115,16 +130,38 @@ Conseils :
 \end{exercise}
 
 
-\begin{exercise}[subtitle= Produit et téléscopages, difficulty=$\spadesuit$]
+\begin{exercise}[subtitle= Somme et télescopages, difficulty=$\spadesuit$]
+Déterminer deux réels $a$ et $b$ tels que, pour tout $k\in \NN$,
+$$\frac 1{(k+1)(k+3)}=\frac a{k+1}+\frac b{k+3}.$$
+En déduire la valeur de la somme
+$$S_n=\sum_{k=0}^n \frac{1}{(k+1)(k+3)}.$$
+\end{exercise}
+
+
+\begin{exercise}[subtitle= Produit et télescopages, difficulty=$\spadesuit$]
 	Démontrer que : $P_n =\prod\limits_{k=2}^n \frac{k^3-1}{k^3+1} = \frac{2}{3}\frac{n^2 +n +1}{n(n+1)}$.
 	Conseils :
 	\begin{tasks} 
 		\task Réécrire $k^3-1$ et $k^3+1$ en mettant $k-1$ et $k+1$ en facteur.
-		\task Simplifier par téléscopage.
+		\task Simplifier par télescopages.
 		\task Réécrire $k^2+k+1$  et $k^2-k+1$ en faisant apparaître $(k+1)^2$ et $(k-1)^2$. 
-		\task Simplifer par téléscopage.  
+		\task Simplifer par télescopage.  
+	\end{tasks} 
+\end{exercise}
+
+\begin{exercise}[subtitle= Produit et binôme, difficulty=$\spadesuit$]
+Pour $n\in \NNs$ et $x\in \RR$, on note $$P_n(x)=\prod_{k=1}^n \left(1+\frac xk\right).$$  
+	\begin{tasks} 
+		\task Que valent $P_n(0)$, $P_n(1)$, $P_n(-n)$?
+		\task Démontrer que pour tout réel non-nul $x$, on a 
+		$$P_n(x)=\frac {x+n}xP_n(x-1).$$
+		\task Pour $p\in \NNs$, écrire $P_n(p)$ comme coefficient du binôme, c'est à dire de la forme $\binom a b$ où $a$ et $b$ sont deux entiers positifs.
+		\task Calculer $P_n$.
 	\end{tasks} 
 \end{exercise}
 
 
-
+\begin{exercise}[subtitle= Somme et factorielles, difficulty=$\spadesuit$]
+Démontrer que, pour tout $n\in \NNs$, on a 
+$$(n+1)!\geq\sum_{k=1}^n k!$$.
+\end{exercise}
