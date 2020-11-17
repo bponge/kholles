@@ -9,7 +9,7 @@ echo "Compiling with pdflatex !"
 cd EC/
 
 fileName="khec.tex"
-d=`date +%m-%d-%Y` 
+d=`date +%d-%m-%Y` 
 echo "Substituting version number ${GITHUB_SHA::7} in file $fileName..."
 sed -i -e "s/-- Document version --.*/-- Document version : ${GITHUB_SHA::7} -- le  $d/" $fileName
 
