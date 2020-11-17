@@ -11,12 +11,13 @@ cd EC/
 fileName="khec.tex"
 d=`date +%m-%d-%Y` 
 echo "Substituting version number ${GITHUB_SHA::7} in file $fileName..."
-sed -i -e "s/-- Document version --/-- Document version -- ${GITHUB_SHA::7} -- $d/" $fileName
+sed -i -e "s/-- Document version --.*/-- Document version : ${GITHUB_SHA::7} -- le  $d/" $fileName
 
 pdflatex $fileName 
 pdflatex $fileName
 cd ..
 
 echo "Copying result to PDF/"
-cp -f EC/$fileName $OUT_DIR/colles_EC.pdf
+outFile="khec.pdf"
+cp -f EC/$outFile $OUT_DIR/colles_EC.pdf
 
