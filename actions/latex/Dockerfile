@@ -16,8 +16,8 @@ RUN apt-get update && \
     apt-get --purge --yes autoremove && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-ADD entrypoint.sh /entrypoint.sh
+ADD make_kholles_EC_pdf.sh /make_kholles_EC_pdf.sh
 
-RUN chmod +x /entrypoint.sh
+RUN chmod +x /make_kholles_EC_pdf.sh
 
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["/make_kholles_EC_pdf.sh"]

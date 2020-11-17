@@ -31,5 +31,6 @@ jobs:
         run: |
           git config --global user.name 'Olivier Reynet'
           git config --global user.email 'olivier.reynet@ensta-bretagne.fr'
+	  git add .
           git commit -am "Automated integration LaTeX"
           git push
