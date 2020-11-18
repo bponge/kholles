@@ -5,7 +5,7 @@ set -e
 echo "Creating output directory $OUT_DIR..."
 [ ! -e $OUT_DIR ] &&  mkdir --parent $OUT_DIR
 
-echo "Compiling with pdflatex !"
+echo "Compiling compilation with pdflatex !"
 cd EC/
 
 fileName="khec.tex"
@@ -24,6 +24,17 @@ cp -f $outFile ../$OUT_DIR/colles_EC.pdf
 echo "Removing temp files..."
 rm -f main*
 cd ..
+
+
+echo "Compiling individuals with pdflatex !"
+
+cd EC/individuelles
+for DIR in $(ls -d */)
+do
+	./make_colles.sh $DIR
+	[ ! -d ../../$OUT_DIR/$DIR ] &&  mkdir ../../$OUT_DIR/$DIR	
+	cp -f $DIR/*.pdf ../../$OUT_DIR/$DIR/
+done 
 
 
 
