@@ -5,7 +5,7 @@ DIR=$1
 [ ! -d $DIR ] && echo "Directory $DIR does not exist !" && exit 1
 cd $DIR
 echo "Cleaning..."
-EXTENSIONS="*exercise-body* *.out *.aux *.ps *.log *.dvi *.tex~ *.synctex.gz"
+EXTENSIONS="*exercise-body* *.out *.aux *.ps *.log *.dvi *.tex~ *.synctex.gz *.tex-e"
 for EXT in $EXTENSIONS
 do
 	rm -f "$EXT" 
