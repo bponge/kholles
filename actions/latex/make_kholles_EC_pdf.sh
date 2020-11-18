@@ -32,8 +32,8 @@ cd Colles
 for DIR in $(ls -d */)
 do
 	./make_colles.sh "$DIR"
-	[ ! -d ../../$OUT_DIR/$DIR ] &&  mkdir ../../$OUT_DIR/$DIR	
-	cp -f $DIR/*.pdf ../../$OUT_DIR/$DIR/
+	[ ! -d ../$OUT_DIR/$DIR ] &&  mkdir ../$OUT_DIR/$DIR	
+	cp -f $DIR/*.pdf ../$OUT_DIR/$DIR/
 done 
 
 
