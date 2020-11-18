@@ -28,7 +28,7 @@
 
 ## Pour ajouter à la collection d'exercices
 
-Contacter moi ;) et on discute. Pour l'instant j'ai organisé le répertoire [EC/exercices](EC/exercices) d'après le programme des colles. On peut continuer comme cela ou faire autrement. 
+Pour l'instant j'ai organisé le répertoire [EC/exercices](EC/exercices) d'après le programme des colles. On peut continuer comme cela ou faire autrement. 
 
 
 
