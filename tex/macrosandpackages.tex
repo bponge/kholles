@@ -1,4 +1,4 @@
-
+%% GENERAL PACKAGE AND LAYOUT
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
@@ -13,24 +13,47 @@
 }
 \usepackage[dvipsnames,svgnames]{xcolor}
 \usepackage{listings}   
+\usepackage{xspace}
 
+%% MATH
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage[noend]{algpseudocode}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage[ntheorem]{empheq} 
+\usepackage[thmmarks,amsmath]{ntheorem}
+\usepackage{mathcommand}
 
-
-%%% GENERAL LAYOUT
-\usepackage[small]{titlesec}
-\titleformat{\section}{\normalsize\bfseries}{\thesection.}{0.5em}{}
-
+%% STYLE
 \usepackage{fancyhdr}
 \setlength{\headheight}{15.2pt}
 \pagestyle{headings}
 
 
-%% General macros 
-\newcommand\NB[1][0.3]{N\kern-#1em\textcolor{red}{B} ---  } % default kern amount: -0.3em
+\usepackage{titlesec}
 
-%% MATH TYPING
+\titleformat{\chapter}[display]
+{\normalfont\Large\filcenter\sffamily}
+{\titlerule[1pt]%
+	\vspace{1pt}%
+	\titlerule
+	\vspace{1pc}%
+	\LARGE\MakeUppercase{\chaptertitlename} \thechapter}
+{1pc}
+{\titlerule
+	\vspace{1pc}%
+	\Huge}
 
-\input{\texpath/mathandalgopackages}
+\titleformat{\section}[frame]
+{\normalfont}
+{\filright
+	\footnotesize
+	\enspace SECTION \thesection\enspace}
+{8pt}
+{\Large\bfseries\filcenter}
+
+
+%% INCLUDE MATH RELATED SETTINGS
 \input{\texpath/mathwritings}
 \input{\texpath/theoremandcostyle}
 \input{\texpath/mathexercises}
@@ -38,4 +61,5 @@
 
 \setcounter{tocdepth}{3}     
 \setcounter{secnumdepth}{3}  
+
 
