@@ -4,6 +4,7 @@
 *.log
 *.dvi
 *.tex~
+*.toc
 *.synctex.gz
 .DS_Store
 *.thm
