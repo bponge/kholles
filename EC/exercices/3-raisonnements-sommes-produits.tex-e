@@ -1,0 +1,167 @@
+ \chapter{Calculs et raisonnements - Sommes et produits}
+ 
+\section{Programme}
+	\begin{itemize}
+ 	\item Calcul: symbole $\sum$, de produits $\prod$,  sommes et produits  usuels, changement d'indice, simplification téléscopique, inégalité triangulaire, résolution d’équations et d’inéquations,binôme de Newton
+ 	\item Raisonnement: assertions, conditions, implication et équivalence.  analyse-synthèse. Ordre des  quantificateurs et preuve d’une énoncé quantifié.
+ \end{itemize}
+
+
+
+
+\section{Remarques}
+
+
+\NB Être très précis sur les indices !
+
+\NB Connaître la petite relation $k\binom{n}{k}=n\binom{n-1}{k-1}$.
+
+\NB Connaître la somme $\sum\limits_{k=0}^n \binom{n}{k}= 2^n$.
+
+\NB Savoir appliquer la formule du binôme avec un entier $p$ et $1$ pour trouver le résultat d'une somme d'une puissance multipliée par un binôme : $\sum\limits_{k=0}^n \binom{n}{k} p^k= (p+1)^n$  
+
+\NB Maîtriser les règles de calcul avec l'opérateur produit $\prod$. Bien les distinguer de celles de l'opérateur $\sum$. 
+
+\section{Questions de cours}	
+
+
+
+\begin{exercise}[subtitle=Règles de calcul associées à l'opérateur $\prod$, extype=cours]
+	\begin{tasks} 
+		\task Donner la définition de l'expression $ \prod\limits_{k=p}^n a_k$.
+		\task Que valent les expressions $\prod\limits_{k=p}^n 1$ et  $\prod\limits_{k=p}^n a$?
+		\task Définir $n!$ à l'aide de l'opérateur $\prod$. 
+		\task Donner la relation de Chasles dans le cas de l'opérateur $\prod$.
+		\task Que vaut l'expression $\prod\limits_{k=p}^n a_k b_k$ ?
+		\task Que vaut l'expression $\prod\limits_{k=p}^n \lambda a_k$ ?
+	\end{tasks}
+\end{exercise}
+
+\begin{exercise}[subtitle=Lien entre sommes et produits, extype=cours]
+	\begin{tasks} 
+		\task Énoncer et démontrer la règle de calcul qui lie les opérateurs $\sum$  et $\prod$  et la fonction logarithme. 
+		\task Énoncer et démontrer la règle de calcul qui lie les opérateurs $\sum$  et $\prod$  et la fonction exponentielle.
+	\end{tasks}
+\end{exercise}
+
+
+\begin{exercise}[subtitle=Simplication téléscopique, extype=cours]
+	Dans cet exercice, les deux démonstrations se feront de deux manières différentes, \textit{in extenso} et par changement d'indice. 
+	\begin{tasks} 
+		\task Énoncer et démontrer le principe de simplification téléscopique dans le cas de la somme.
+		\task  Énoncer démontrer le principe de simplification téléscopique dans le cas du produit. 
+	\end{tasks}
+\end{exercise}
+
+
+\begin{exercise}[subtitle=Formule du binôme et preuve par récurrence, extype=cours]
+	\begin{tasks} 
+		\task Énoncer la formule de Pascal et l'expliquer visuellement.
+		\task Énoncer la formule du binôme.
+		\task Démontrer la formule par récurrence. On procèdera avec un changement d'indice et en remarquant que $\binom{n}{k-1} + \binom{n}{k}= \binom{n+1}{k}$ (formule de Pascal).
+		\task Donner un exemple d'utilisation de la formule du binôme pour simplifier une somme. 
+	\end{tasks}
+\end{exercise}
+
+
+
+\section{Exercices}
+
+\begin{exercise}[subtitle= Somme et disjonction des cas, difficulty=**]
+	Soit la somme $S_N = \sum\limits_{k=1}^{N}(-1)^k k$. Calculer $S_N$ en explicitant le type de raisonnement utilisé. 
+\end{exercise}
+
+\begin{exercise}[subtitle= Lien produit-somme, difficulty=*]
+	Soit $x$ un nombre réel non nul et le produit $P_n = \prod\limits_{k=0}^{n}x^{k^2}$. Calculer $P_n$ en explicitant les propriétés de calcul utilisées. 
+\end{exercise}
+
+\begin{exercise}[subtitle= Lien produit-somme et  propriétés des produits, difficulty=**]
+	Soit le produit $P_n = \prod\limits_{k=1}^{n}2^{1-k^3}$. Calculer $P_n$ en explicitant les propriétés de calcul utilisées. 
+\end{exercise}
+
+\begin{exercise}[subtitle= Simplifier les sommes et les produits, difficulty=**]
+\begin{tasks} (2)
+	\task $\sum_{k=1}^n \ln\left(1+\dfrac {1}{k}\right)$
+	\task $\prod_{k=2}^n \left(1-\dfrac{1}{k^2}\right)$
+	\task $\sum_{k=0}^n \dfrac{1}{(k+2)(k+3)}$. 
+\end{tasks} 
+\end{exercise}
+
+\begin{exercise}[subtitle= Simplification et factorielle, difficulty=**]
+	Simplifier les expressions :
+	\begin{tasks} (2)
+		\task $\prod_{j=3}^n (2j)$
+		\task $\prod_{k=0}^n \left(\dfrac{2}{n+k}\right)$
+	\end{tasks} 
+\end{exercise}
+
+\begin{exercise}[subtitle= Binôme et somme, difficulty=*]
+	Soit $p$ un entier naturel différent de 0. Calculer  $S_n = \sum\limits_{k=0}^{n}\binom{n}{k}p^{k}$.  
+\end{exercise}
+
+\begin{exercise}[subtitle= Binôme - sommes - récurrences, difficulty=$\spadesuit\spadesuit$]
+Démontrer que : $\forall n \in \NNs$ :
+$$\sum\limits_{k=1}^{n}\frac{(-1)^{k+1}}{k}\binom{n}{k} = \sum\limits_{k=1}^n \frac{1}{k}$$ 
+Conseils :
+\begin{tasks} 
+	\task Démonstration par récurrence. 
+	\task Utiliser la formule de Pascal. 
+	\task Faire apparaître l'hypothèse de la démonstration, l'autre partie va devoir être égale à $\frac{1}{n+1}$.
+	\task $\binom{n}{n+1}=0$ car on ne peut pas choisir $n+1$ éléments parmi $n$.
+	\task $\frac{1}{k}\binom{n}{k-1} = \frac{1}{n+1}\binom{n+1}{k} $
+	\task $\sum\limits_{k=0}^{n+1} (-1)^{k}\binom{n+1}{k} = 0$ 
+\end{tasks} 
+\end{exercise}
+
+
+\begin{exercise}[subtitle= Formule de Van Der Monde, difficulty=$\spadesuit\spadesuit$]
+	Démontrer que : $\forall n, m, q \in \NN$ :
+	$$\sum\limits_{k=0}^{p}\binom{n}{k} \binom{m}{p-k} = \binom{n+m}{p}$$.  Dans un second temps, appliquer la formule aux sommes $S_n = \sum\limits_{k=0}^n \binom{n}{k}^2$ et $T_n = \sum\limits_{k=0}^n \binom{n}{k}^2$.
+	Conseils :
+	\begin{tasks} 
+		\task Démonstration par récurrence. 
+		\task $n$ est l'indice sur lequel porte la récurrence. 
+		\task Initialisation avec $n=0$. Se rappeler que $\binom{p}{q} = 0 $ si $q>p$.
+		\task Pour l'hérédité, appliquer une première fois la formule de Pascal. 
+		\task Faire un changement d'indice $j=k-1$ et remarquer que pour $k=0$ le terme est nul. 
+		\task Appliquer l'hypothèse de récurrence à $p$ et $p+1$.
+		\task Appliquer une deuxième fois la formule de Pascal. 
+	\end{tasks} 
+\end{exercise}
+
+
+\begin{exercise}[subtitle= Somme et télescopages, difficulty=$\spadesuit$]
+Déterminer deux réels $a$ et $b$ tels que, pour tout $k\in \NN$,
+$$\frac 1{(k+1)(k+3)}=\frac a{k+1}+\frac b{k+3}.$$
+En déduire la valeur de la somme
+$$S_n=\sum_{k=0}^n \frac{1}{(k+1)(k+3)}.$$
+\end{exercise}
+
+
+\begin{exercise}[subtitle= Produit et télescopages, difficulty=$\spadesuit$]
+	Démontrer que : $P_n =\prod\limits_{k=2}^n \frac{k^3-1}{k^3+1} = \frac{2}{3}\frac{n^2 +n +1}{n(n+1)}$.
+	Conseils :
+	\begin{tasks} 
+		\task Réécrire $k^3-1$ et $k^3+1$ en mettant $k-1$ et $k+1$ en facteur.
+		\task Simplifier par télescopages.
+		\task Réécrire $k^2+k+1$  et $k^2-k+1$ en faisant apparaître $(k+1)^2$ et $(k-1)^2$. 
+		\task Simplifer par télescopage.  
+	\end{tasks} 
+\end{exercise}
+
+\begin{exercise}[subtitle= Produit et binôme, difficulty=$\spadesuit$]
+Pour $n\in \NNs$ et $x\in \RR$, on note $$P_n(x)=\prod_{k=1}^n \left(1+\frac xk\right).$$  
+	\begin{tasks} 
+		\task Que valent $P_n(0)$, $P_n(1)$, $P_n(-n)$?
+		\task Démontrer que pour tout réel non-nul $x$, on a 
+		$$P_n(x)=\frac {x+n}xP_n(x-1).$$
+		\task Pour $p\in \NNs$, écrire $P_n(p)$ comme coefficient du binôme, c'est à dire de la forme $\binom a b$ où $a$ et $b$ sont deux entiers positifs.
+		\task Calculer $P_n$.
+	\end{tasks} 
+\end{exercise}
+
+
+\begin{exercise}[subtitle= Somme et factorielles, difficulty=$\spadesuit$]
+Démontrer que, pour tout $n\in \NNs$, on a 
+$$(n+1)!\geq\sum_{k=1}^n k!$$.
+\end{exercise}

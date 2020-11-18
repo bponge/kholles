@@ -1,0 +1,29 @@
+ \chapter{Dénombrement}
+ 
+\section{Programme}
+	\begin{itemize}
+ 	\item Cardinal, permutations, combinaisons
+ 	\item 
+ \end{itemize}
+
+
+
+\section{Exercices}
+
+
+
+
+\begin{exercise}[subtitle= Dé à 20 faces]
+	On dispose de 3 dés identiques à vingt faces et on les lance simultanément dans le but de disposer de 3 notes de colle. 
+	\begin{tasks}
+		\task Combien y-a-t-il de lancers possibles ?
+		\task Combien y-a-t-il de lancers possibles tels que tous les dés présentent une valeur supérieure ou égale à 10 ?
+		\task Combien y-a-t-il de lancers possibles tels que deux dés exactement présentent une valeur identique ? 
+		\task Combien y-a-t-il de lancers possibles tels que les dés présentent  les valeurs 17, 9 et 3 ?
+		\task Déduire les probabilités associées aux évènements précédents.  
+		\task Soit $p$ la probabilité de l'évènement $\Ac$ "tous les dés présentent une valeur supérieure ou égale à 10". Que vaut la probabilité qu'au moins un dé présente une valeur strictement inférieur à 10 ?   
+		\task Combien de lancers de 3 dés faudrait-t-il réaliser pour avoir 9 chances sur 10 d'obtenir un évènement $\Ac$ (\ie que tous les élèves aient la moyenne$\dots$) ? 
+	\end{tasks}
+\end{exercise}
+
+

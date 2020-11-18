@@ -1,7 +1,7 @@
 \documentclass[french,12pt,a4paper]{book}
 
 \newcommand*{\texpath}{../tex}%
-\input{\texpath/preamble}
+\input{\texpath/macrosandpackages}
 
 
 
