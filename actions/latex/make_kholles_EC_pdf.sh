@@ -28,7 +28,7 @@ cd ..
 
 echo "Compiling individuals with pdflatex !"
 
-cd EC/individuelles
+cd Colles
 for DIR in $(ls -d */)
 do
 	./make_colles.sh "$DIR"
