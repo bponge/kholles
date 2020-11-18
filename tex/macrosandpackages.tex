@@ -1,0 +1,41 @@
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[french]{babel}
+\usepackage[a4paper,margin=1.5cm]{geometry}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+	colorlinks,
+	linkcolor={blue!50!black},
+	citecolor={blue!50!black},
+	urlcolor={blue!80!black}
+}
+\usepackage[dvipsnames,svgnames]{xcolor}
+\usepackage{listings}   
+
+
+
+%%% GENERAL LAYOUT
+\usepackage[small]{titlesec}
+\titleformat{\section}{\normalsize\bfseries}{\thesection.}{0.5em}{}
+
+\usepackage{fancyhdr}
+\setlength{\headheight}{15.2pt}
+\pagestyle{headings}
+
+
+%% General macros 
+\newcommand\NB[1][0.3]{N\kern-#1em\textcolor{red}{B} ---  } % default kern amount: -0.3em
+
+%% MATH TYPING
+
+\input{\texpath/mathandalgopackages}
+\input{\texpath/mathwritings}
+\input{\texpath/theoremandcostyle}
+\input{\texpath/mathexercises}
+\input{\texpath/textexercises}
+
+\setcounter{tocdepth}{3}     
+\setcounter{secnumdepth}{3}  
+

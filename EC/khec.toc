@@ -28,3 +28,6 @@
 \contentsline {section}{\numberline {6.3}Remarques}{25}{section.6.3}%
 \contentsline {section}{\numberline {6.4}Questions de cours}{25}{section.6.4}%
 \contentsline {section}{\numberline {6.5}Exercices}{27}{section.6.5}%
+\contentsline {chapter}{\numberline {7}Dénombrement}{29}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Programme}{29}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Exercices}{29}{section.7.2}%

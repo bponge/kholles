@@ -6,3 +6,4 @@
 *.tex~
 *.synctex.gz
 .DS_Store
+*exercise-body*

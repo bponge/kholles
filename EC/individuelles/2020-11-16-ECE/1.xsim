@@ -1,0 +1,29 @@
+\providecommand\numberofexercises{}
+\XSIM{goal}{exercise}{points}{0}
+\XSIM{totalgoal}{points}{0}
+\XSIM{goal}{exercise}{bonus-points}{0}
+\XSIM{totalgoal}{bonus-points}{0}
+\XSIM{collection:all exercises}{exercise-1||exercise-2||exercise-3}
+\XSIM{total-number}{3}
+\XSIM{exercise}{3}
+\XSIM{types}{exercise}
+\XSIM{id}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}}
+\XSIM{ID}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}}
+\XSIM{counter}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}}
+\XSIM{counter-value}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}}
+\XSIM{print}{exercise-1=={true}||exercise-2=={true}||exercise-3=={true}}
+\XSIM{use}{exercise-1=={true}||exercise-2=={true}||exercise-3=={true}}
+\XSIM{used}{exercise-1=={true}||exercise-2=={true}||exercise-3=={true}}
+\XSIM{solution}{}
+\XSIM{section-value}{exercise-1=={0}||exercise-2=={0}||exercise-3=={0}}
+\XSIM{section}{exercise-1=={0}||exercise-2=={0}||exercise-3=={0}}
+\XSIM{sectioning}{exercise-1=={{0}{0}{0}{0}{0}}||exercise-2=={{0}{0}{0}{0}{0}}||exercise-3=={{0}{0}{0}{0}{0}}}
+\XSIM{subtitle}{exercise-1=={Partie entière}||exercise-2=={Étude d'une fonction}||exercise-3=={Dé à 20 faces}}
+\XSIM{points}{}
+\XSIM{bonus-points}{}
+\XSIM{page-value}{exercise-1=={1}||exercise-2=={1}||exercise-3=={1}}
+\XSIM{page}{exercise-1=={1}||exercise-2=={1}||exercise-3=={1}}
+\XSIM{tags}{}
+\XSIM{topics}{}
+\XSIM{difficulty}{}
+\XSIM{extype}{}
