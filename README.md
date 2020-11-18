@@ -1,4 +1,3 @@
-[[_TOC_]]
 
 # Accès rapide
 
@@ -13,12 +12,11 @@
   * Deux scripts (`make_colles.sh` et `make_all_colles.sh`) permettent de générer les fichiers pdf automatiquement d'après le nom du dossier.
 - Le répertoire [PDF](PDF) contient les résultats de l'intégration continu du projet par la plateforme GitHub, c'est à dire tous les fichiers PDF générés.
 - Le répertoire [tex](tex) contient la configuration LaTeX pour l'écriture des documents :
-  * [preamble.tex](tex/preamble.tex) précise la liste et la configuration des packages utilisés,
+  * [preamble.tex](tex/preamble.tex) précise la liste et la configuration des packages utilisés : il suffit d'inclure ce fichier au début d'un document LaTeX et tous les autres fichiers de configuration sont inclus.
   * [mathwritings.tex](tex/mathwritings.tex) contient les macros utiles pour l'écriture des mathématiques,
   * [textexercises.tex](tex/textexercises.tex) contient des macros utiles pour l'écriture du texte,
-  * [mathexercises.tex](tex/mathexercises.tex) contient la configuration du package xsim pour l'écriture des exercices,
+  * [mathexercises.tex](tex/mathexercises.tex) contient la configuration du package xsim pour l'écriture des exercices.
   
-
 
 # Comment utiliser ?
 
