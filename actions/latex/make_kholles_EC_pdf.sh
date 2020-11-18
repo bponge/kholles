@@ -31,7 +31,7 @@ echo "Compiling individuals with pdflatex !"
 cd EC/individuelles
 for DIR in $(ls -d */)
 do
-	./make_colles.sh $DIR
+	./make_colles.sh "$DIR"
 	[ ! -d ../../$OUT_DIR/$DIR ] &&  mkdir ../../$OUT_DIR/$DIR	
 	cp -f $DIR/*.pdf ../../$OUT_DIR/$DIR/
 done 

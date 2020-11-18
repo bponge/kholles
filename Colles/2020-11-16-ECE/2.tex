@@ -1,6 +1,6 @@
 \documentclass[french,12pt,a4paper]{article}
 
-\newcommand*{\texpath}{../../../tex}%
+\newcommand*{\texpath}{../tex}%
 \input{\texpath/macrosandpackages}
 
 
@@ -13,10 +13,10 @@
 
 \maketitle
 
-
-\begin{exercise}[subtitle= Partie entière]
+\begin{exercise}[subtitle= Propriétés de la fonction partie entière]
 	\begin{tasks}
-		\task \Mq $\forall x \in \RR, \lfloor x \rfloor + \lfloor x + \frac{1}{2} \rfloor = \lfloor 2 x \rfloor$.
+		\task \Mq $\forall x \in \RR, \forall n \in \NN, \lfloor x + n \rfloor = \lfloor x \rfloor +n$.
+		\task \Mq $\exists x \in \RR, \exists n \in \NN, \lfloor nx \rfloor \neq n \lfloor x \rfloor$. Conclure en prenant la négation. 
 	\end{tasks}
 \end{exercise}
 
@@ -33,7 +33,7 @@
 		\item Tracer l'allure du graphe de $f$ avec tous les éléments.
 	\end{enumerate}
 
-	$f(x)= \ln{\abs{x}}+x^2$
+	$f(x)= \ln{\abs{x}}+x^3$
 
 \end{exercise}
 

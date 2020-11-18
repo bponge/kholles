@@ -1,6 +1,6 @@
 \documentclass[french,12pt,a4paper]{article}
 
-\newcommand*{\texpath}{../../../tex}%
+\newcommand*{\texpath}{../tex}%
 \input{\texpath/macrosandpackages}
 
 
@@ -13,10 +13,10 @@
 
 \maketitle
 
-\begin{exercise}[subtitle= Propriétés de la fonction partie entière]
+\begin{exercise}[subtitle= Racine carrée et  partie entière]
 	\begin{tasks}
-		\task \Mq $\forall x \in \RR, \forall n \in \NN, \lfloor x + n \rfloor = \lfloor x \rfloor +n$.
-		\task \Mq $\exists x \in \RR, \exists n \in \NN, \lfloor nx \rfloor \neq n \lfloor x \rfloor$. Conclure en prenant la négation. 
+		\task \Mq $\forall n \in \NN, \lfloor ( \sqrt{n} + \sqrt{n+1})^2 \rfloor = 4n +1$.
+		\task \Mq  $\forall x \in \RR, x \ge 0 \Rightarrow \lfloor \sqrt{\lfloor x \rfloor}\rfloor = \lfloor \sqrt{x} \rfloor$.
 	\end{tasks}
 \end{exercise}
 
@@ -33,7 +33,7 @@
 		\item Tracer l'allure du graphe de $f$ avec tous les éléments.
 	\end{enumerate}
 
-	$f(x)= \ln{\abs{x}}+x^3$
+	 $f(x)= e^{\abs{x}}+x^2$
 
 \end{exercise}
 
