@@ -8,7 +8,7 @@
 
 - Le répertoire [EC](EC) contient le document maître de la collection d'exercices pour les colles [EC/khec.tex](EC/khec.tex).
 - Le répertoire [Colles](Colles) contient les documents maîtres de toutes les colles individuellement générées :
-  * Chaque sour-répertoire est nommé d'après la date et la filière de la colle, par exemple **2020-11-16-ECE**, 
+  * Chaque sous-répertoire est nommé d'après la date et la filière de la colle, par exemple **2020-11-16-ECE**, 
   * Deux scripts (`make_colles.sh` et `make_all_colles.sh`) permettent de générer les fichiers pdf automatiquement.
 - Le répertoire [PDF](PDF) contient les résultats de l'intégration continu du projet par la plateforme GitHub, c'est à dire tous les fichiers PDF générés.
 - Le répertoire [tex](tex) contient la configuration LaTeX pour l'écriture des documents :
